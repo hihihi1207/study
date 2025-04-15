@@ -10,10 +10,10 @@ int main(void) {
     }
     Sum = 0; // sum을 0으로 초기화
     Num = 1; // num을 0으로 초기화
-    while (Count >= Num) // 반복한 횟수가 입력받은 수보다 작거나 같을때 반복
+    do // do while문 시작
     {
         Sum += Num; // sum에 num을 더함
         printf("%d회 반복 누적합: %d \n", Num, Sum);
         Num++; // num에 1을 더함
-    }
+    }while (Count >= Num); // 반복한 횟수가 입력받은 수보다 작거나 같을때 반복
 }
