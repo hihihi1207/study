@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define_CRT_SECURE_NO_WARNINGS
 
 int main(void){
     char blood;
@@ -8,7 +9,7 @@ int main(void){
     printf("AB형 : C 또는 c\n");
     printf("O형 : O 또는 o\n");
     printf("혈액형을 입력하세요: ");
-    scanf("%c", &blood);  // 혈액형 입력받기
+    scanf_s("%c", &blood);  // 혈액형 입력받기
 
     if(blood == 'A' || blood == 'a') {
         printf("A형 입니다.\n");
