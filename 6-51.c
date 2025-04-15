@@ -33,4 +33,6 @@ int main(void){
         Grade = "F";
         break;
     }
+    printf("등급 : %c\n", Grade); // 등급 출력
+    return 0; // 프로그램 종료
 }
