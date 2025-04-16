@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void) {
-    int Count,Num,Sum; // Count는 반복한횟수 Num은 입력받은 수 Sum은 합계
+    int Count,Num,Sum; // Count는 입력받은 수(반복할 횟수) Num은 반복한 횟수 Sum은 합계
     printf("반복횟수를 입력하세요 : ");
     scanf_s("%d", &Count); // 반복횟수 입력받기
     if (Count < 0) // 반복횟수가 0보다 작을때
