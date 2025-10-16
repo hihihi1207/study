@@ -9,4 +9,4 @@ int main(void) {
 			printf("%d x %d = %d \n", i, a, i * a);    
 		} // 이부분에서 2번째 for문 끝나고 첫번째 for문으로 올라감
 	}
-}
+}//테스트
